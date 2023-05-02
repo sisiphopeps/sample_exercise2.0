@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: tan; 
+    background-size:contain;
+}
+
+nav {
+    background-color: azure;
+    color: black ;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    display: inline-block;
+
+}
