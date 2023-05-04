@@ -1,17 +1,31 @@
 body{
-    background-color: black;
-    color: tan; 
+    background-color: tan;
+    color:black; 
     background-size:contain;
 }
 
 nav {
-    background-color: azure;
+    
+    background-color:grey;
     color: black ;
 }
+ ul{
+    list-style:none;
+    margin: 0%;
+    padding: 0%;
+ }
 
-ul li {
-    list-style: none;
-    float: left;
-    display: inline-block;
-
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.picture{
+    position: absolute;
+}
+.picture2{
+    padding: 10px;
+    text-align: center;
 }
